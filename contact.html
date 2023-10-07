@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alpine Village | Contact</title>
+        <meta name="author" content="Summit Milone">
+        <meta name="description" content="contact page">
+        
+        <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Noto+Sans+NKo+Unjoined:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <nav>
+            <h1><a href=index.html>Alpine Village</a></h1>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Accommodations</li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/swiss-valley.jpg" alt="Swiss Valley landscape with a stream, snowy mountains and trees" width="100%">
+    </header>
+    <main>
+        <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <img src="images/swiss-peak.jpg" alt="Portrait photo of a snowy mountain top with trees and a stream">
+        <form action="/action_page.php" method="GET" target="_blank">
+			<label for="my-name">Full Name*</label>
+			<input type="text" name="my-name" id="my-name" required>
+			
+			<label for="email-address">Email Address*</label>
+			<input type="email" name="my-email" id="my-email" required>
+			
+			<label for="my-number">Phone Number*</label>
+			<input type="number" name="my-number" id="my-number" required>
+
+            <label for="my-comment">Comments*</label>
+			<input type="text" name="my-comment" id="my-comment" required>
+
+            <fieldset>
+				<legend>Preffered Method of Contact</legend>
+															 
+				<input type="radio" name="contact-pref" id="pref-email" checked>
+				<label for="pref-email">Email </label>
+												 
+				<input type="radio" name="contact-pref" id="pref-phone">
+				<label for="pref-phone">Phone</label>
+			</fieldset>
+
+            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+        </form>
+        </section>
+    </main>
+    <footer>
+        <h4>Copyright &copy;2023 - Alpine Village</h4>
+        <p>This site is for educational purposes only.</p>
+    </footer>
+</body>
